@@ -2,7 +2,7 @@
 let driver = {}
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  const driverCopy = {...driver}
+  const driverCopy = {...driver} //spread operator
   driverCopy[key] = value
   return driverCopy
 }
